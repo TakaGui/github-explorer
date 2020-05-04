@@ -78,13 +78,13 @@ export const Repositories = styled.div`
     display: flex;
     align-items: center;
 
-    transition: transform 0.2s;
+    transition: transform 0.3s;
 
     &:hover {
       transform: translateX(10px);
 
       svg {
-        color: ${shade(0.2, '#68e4a0')};
+        color: ${shade(0.2, '#666')};
       }
     }
 
